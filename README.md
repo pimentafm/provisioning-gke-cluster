@@ -12,7 +12,7 @@ Applay: `terraform apply [-auto-approve]`
 
 Destroy: `terraform destroy [-auto-aprove]`
 
-Connect to cluster: `aws eks update-kubeconfig --region us-east-1 --name data-engineering-project-eks --profile <your_profile>`
+Connect to cluster: `gcloud container clusters get-credentials <project_name> --zone <zone> --project <project_id>`
 
 Get nodes: `kubectl get nodes`
 Get pods: `kubectl get pods -A`
